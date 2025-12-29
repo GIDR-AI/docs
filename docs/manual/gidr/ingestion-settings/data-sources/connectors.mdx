@@ -1,0 +1,157 @@
+---
+title: "Connectors"
+description: "Documentation for Connectors"
+---
+
+# Connectors
+
+{/* AUTO:BEGIN */}
+
+
+## Overview
+
+Verification and validation for connector add flow.
+
+<Info>
+This feature allows you to accomplish the task described above. Follow the procedures below to get started.
+</Info>
+
+## Prerequisites
+
+- User should be created at least one GIDR.
+- User should be having a account and he should be having access to create a GIDR.
+
+## Procedure
+
+<Steps>
+
+<Step title="Click 'Connectors' radio button in the 'Data Sourc...">
+
+Click "Connectors" radio button in the "Data Sources" screen.
+
+**Input:** `NA`
+
+**Expected result:** The "Connecteors" radio button should be visible, and upon clicking it, the "Connectors list" should be displayed.
+
+</Step>
+
+<Step title="Click the 'Add' button in the 'Data Sources' scree...">
+
+Click the "Add" button in the "Data Sources" screen.
+
+**Input:** `NA`
+
+**Expected result:** The "Add" button should be visible, and upon clicking it, the "Connect Your Data" screen should be displayed. By default, the "Connector" button should be selected, and the remaining buttons should be disabled.
+
+</Step>
+
+<Step title="Enter the mondatory fields like Connector name, Ac...">
+
+Enter the mondatory fields like Connector name, Access Key ID,Secret Access Key and &nbsp;Bucket Name.
+
+**Input:** `Testing Connector,AKIAXXXXXXXXXXXXXXXX, lscDsL23Jop7x6VuDs4ysK5Lx9N+7HN47m27LrJd,gsts-client1-test-source`
+
+**Expected result:** The entered value should be reflected in the text fields.
+
+</Step>
+
+<Step title="Select 'Weekly' radio button.">
+
+Select "Weekly" radio button.
+
+**Input:** `NA`
+
+**Expected result:** The "Sync Weekly On" dropdown should be selectable and displayed.
+
+</Step>
+
+<Step title="Verify the 'Sync weekly on' dropdown.">
+
+Verify the "Sync weekly on" dropdown.
+
+**Input:** `NA`
+
+**Expected result:** It should be clickable and display the all weekdays.
+
+</Step>
+
+<Step title="Click 'Connect' button.">
+
+Click "Connect" button.
+
+**Input:** `​NA`
+
+**Expected result:** &nbsp;It should be clickable, and upon clicking, a success toast message should be displayed.
+
+</Step>
+
+<Step title="Verify all the file should be uploded&nbsp;">
+
+Verify all the file should be uploded&nbsp;
+
+**Input:** `NA`
+
+**Expected result:** All existing files from AWS bucket should appear on the Data Source screen.
+
+</Step>
+
+<Step title="Click 'Disconnect' button on connector">
+
+Click "Disconnect" button on connector
+
+**Input:** `NA`
+
+**Expected result:** The "Disconnect" button should be clickable, and upon clicking it, a Disconnect popup should be displayed.
+
+</Step>
+
+<Step title="Click 'Cancel' button">
+
+Click "Cancel" button
+
+**Input:** `NA`
+
+**Expected result:** The "Cancel" button should be visible, upon clicking Popup should be close.
+
+</Step>
+
+<Step title="Click 'Disconnect' button on connector">
+
+Click "Disconnect" button on connector
+
+**Input:** `NA`
+
+**Expected result:** The "Disconnect" button should be clickable, and upon clicking it, a Disconnect popup should be displayed.
+
+</Step>
+
+</Steps>
+
+## Parameters
+
+The following parameters are used in this process:
+
+- `NA`
+- `Testing Connector,AKIAXXXXXXXXXXXXXXXX, lscDsL23Jop7x6VuDs4ysK5Lx9N+7HN47m27LrJd,gsts-client1-test-source`
+- `​NA`
+
+## Examples
+
+<Note>
+Add practical examples here with realistic data and expected outcomes.
+</Note>
+
+## Related Test Cases
+
+This documentation is derived from the following test cases:
+
+- **[`CP-T111`](/docs/generated/testcases/CP-T111)**: Data source validation from the create flow. (performance)
+- **[`CP-T112`](/docs/generated/testcases/CP-T112)**: Verify to add connector from the GIDR data source tab. (happy)
+- **[`CP-T132`](/docs/generated/testcases/CP-T132)**: Verify and validate PostgreSQL database connector upload flow and test in Insight gidget (performance)
+- **[`CP-T133`](/docs/generated/testcases/CP-T133)**: Verify and validate MS SQL Server connector upload flow and test in Insight gidget. (performance)
+
+{/* AUTO:END */}
+
+## Notes (manual)
+
+_Add examples, edge cases, screenshots, caveats, and cross-links here. This section is not overwritten._

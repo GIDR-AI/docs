@@ -1,0 +1,26 @@
+---
+title: "Verify that the 'Speech-to-Text Provider' LLM functions as expected in the Call Analysis Gidget."
+description: "Auto-generated from Zephyr Scale test case CP-T138"
+---
+
+## Notes (manual) _Add examples, edge cases, screenshots, caveats, and cross-links here. This section is not overwritten._ {/* AUTO:BEGIN */}
+
+## Summary
+To ensure that the <em data-start="252" data-end="279" id="isPasted">'Speech-to-Text Provider'</em> LLM accurately processes audio input and generates correct transcriptions in the Call Analysis Gidget.
+
+## Preconditions
+<ol><li data-start="407" data-end="445" id="isPasted"><p data-start="410" data-end="445">User has valid login credentials.</p></li><li data-start="446" data-end="501"><p data-start="449" data-end="501">Call Analysis Gidget is accessible and functional.</p></li><li data-start="502" data-end="562"><p data-start="505" data-end="562">At least one audio file/sample is available for upload.</p></li></ol>
+
+## Steps
+
+| # | Action | Data | Expected |
+|---:|---|---|---|
+| 1 | Log in to the application with valid credentials. | Email: shashidhar.marannavar@gmail.com<br>Password: Password1! | User is logged in successfully and navigated to the dashboard |
+| 2 | Select the GIDR | GIDR Name: Create from scratch without file | When a GIDR is selected, it should open. |
+| 3 | Drag and drop the "Call Analysis" gidget. | _ | Call Analysis Gidget page loads correctly with all available options. |
+| 4 | Select the<strong>&nbsp;LLM's</strong> from the <em data-start="802" data-end="829" id="isPasted">'</em><strong>Speech-to-Text Provide</strong><strong>r'&nbsp;</strong>dropdown. | _ | It should selected the LLM from the dropdown. |
+| 5 | Upload a valid audio file for analysis. | _ | The audio file is uploaded successfully and The <em data-start="1137" data-end="1164" id="isPasted">'Speech-to-Text Provider'</em> LLM processes the audio without errors. |
+
+**Zephyr key:** `CP-T138`
+
+{/* AUTO:END */} 

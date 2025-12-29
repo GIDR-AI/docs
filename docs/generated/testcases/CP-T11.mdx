@@ -1,0 +1,26 @@
+---
+title: "SignUp using valid email and invalid password length"
+description: "Auto-generated from Zephyr Scale test case CP-T11"
+---
+
+## Notes (manual) _Add examples, edge cases, screenshots, caveats, and cross-links here. This section is not overwritten._ {/* AUTO:BEGIN */}
+
+## Summary
+Verify that the user is able to create an account when not following the password field conditions.
+
+## Preconditions
+User should be on landing page
+
+## Steps
+
+| # | Action | Data | Expected |
+|---:|---|---|---|
+| 1 | Open the browser and enter the website URL. | https://gidr-test1.web.app/en/signup | The browser should open and land on the landing page or the Sign Up page. |
+| 2 | Click on "Your email" Field and enter email | username@gmail.com | The "Your email" fields should be editable |
+| 3 | Click on the "Create password" Text field and enter password | user123 (sending without capital letter and length with 7 digits ) | The "Create password" fields should be editable |
+| 4 | 1. Click on theRepeat passwordfield.<br />2. Make sure to enter theexact same passwordyou used in theCreate passwordfield. | user123 | The "Repeat password" fields should be editable |
+| 5 | Click on the "Sign up" button | _ | Up on click, it should display an error message regarding the password format. |
+
+**Zephyr key:** `CP-T11`
+
+{/* AUTO:END */} 

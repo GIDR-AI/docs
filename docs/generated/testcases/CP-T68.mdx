@@ -1,0 +1,28 @@
+---
+title: "Verification and validation for GIDR List Copy embedded code"
+description: "Auto-generated from Zephyr Scale test case CP-T68"
+---
+
+## Notes (manual) _Add examples, edge cases, screenshots, caveats, and cross-links here. This section is not overwritten._ {/* AUTO:BEGIN */}
+
+## Summary
+Check that the copy embedded code&nbsp;<span style="color: rgb(23, 29, 30); font-family: monospace; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;" id="isPasted"></span>functionality is working as expected.
+
+## Preconditions
+User should be created at least one gidr.
+
+## Steps
+
+| # | Action | Data | Expected |
+|---:|---|---|---|
+| 1 | Verify that the "GIDR's " is loaded. | _ | The "List of GIDR's" should be loaded and displayed all created GIDR's. |
+| 2 | Click on the "Creator" dropdown | _ | The dropdown menu should be clickable, and upon clicking, it should display all the available options. |
+| 3 | Click on the "All" option. | _ | The "All" option should be interactive, and when selected, it should display all the GIDR. |
+| 4 | Click on the "Status" Dropdown | _ | The "Status" dropdown should be interactive, and when clicked, it should display all available options. |
+| 5 | Click on the "Published" option. | _ | The "Published" option should be clickable, and upon clicking, it should display the list of all Published GIDRs. |
+| 6 | Click on the "Action/3dots" button. | _ | The "Action/3dots" button should be interactive, and when clicked, it should reveal a list of all available options. |
+| 7 | Click on the "Copy embedded code" button. | _ | The "Copy icon" should be clickable and upon clicking, it should display a success toast message stating, "Copied to clipboard". |
+
+**Zephyr key:** `CP-T68`
+
+{/* AUTO:END */} 

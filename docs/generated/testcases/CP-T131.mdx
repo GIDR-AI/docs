@@ -1,0 +1,31 @@
+---
+title: "Verify that disabling the Beta toggle button deactivates the Studio feature"
+description: "Auto-generated from Zephyr Scale test case CP-T131"
+---
+
+## Notes (manual) _Add examples, edge cases, screenshots, caveats, and cross-links here. This section is not overwritten._ {/* AUTO:BEGIN */}
+
+## Summary
+To verify that disabling the <strong data-start="104" data-end="126" data-is-only-node="" id="isPasted">Beta toggle button</strong> successfully disables the <strong data-start="153" data-end="163">Studio</strong> feature, ensuring the Studio tab and related functionality are not accessible.
+
+## Preconditions
+<ol><li data-start="74" data-end="118" id="isPasted"><p data-start="77" data-end="118">User has valid Super Admin credentials.</p></li><li data-start="119" data-end="169"><p data-start="122" data-end="169">At least one organization is already created.</p></li><li data-start="170" data-end="258"><p data-start="173" data-end="258">The organization has the <strong data-start="198" data-end="221">Beta toggle enabled</strong> (Studio feature currently active).</p></li><li data-start="259" data-end="355"><p data-start="262" data-end="355">User is logged into the application and has access to the <strong data-start="320" data-end="345">Organization Settings</strong> screen.</p></li></ol>
+
+## Steps
+
+| # | Action | Data | Expected |
+|---:|---|---|---|
+| 1 | Login as a super Admin | super@gidr.ai<br id="isPasted">Password1! | Upon successful login, the <strong data-start="138" data-end="177" data-is-only-node="" id="isPasted">Super Admin Dashboard (Home Screen)</strong> should be displayed. |
+| 2 | Click on the <strong data-start="67" data-end="83" id="isPasted">“Three Dots”</strong> (options) button for the newly created organization. | Organization Name: new | It should displaying available options like Edit, Disable, Impersonate, Delete. |
+| 3 | Click on the <strong data-start="61" data-end="71" id="isPasted">“Edit”</strong> button for the selected organization. | _ | The <strong data-start="138" data-end="159" id="isPasted">Edit Organization</strong> form should open, displaying all editable fields along with the <strong data-start="224" data-end="239">Beta toggle</strong> option. |
+| 4 | In the <strong data-start="54" data-end="75" id="isPasted">Edit Organization</strong> form, click on the <strong data-start="95" data-end="112">“Enable Beta”</strong> toggle button to turn it <strong data-start="138" data-end="145" data-is-only-node="">off</strong>. | _ | Upon clicking, the <strong data-start="97" data-end="112" id="isPasted">Beta toggle</strong> should switch to the <strong data-start="134" data-end="152" data-is-only-node="">disabled (off)</strong> state. |
+| 5 | Click on the <strong data-start="65" data-end="75" id="isPasted">“Save”</strong> button after disabling the Beta toggle. | _ | The changes should be saved successfully, and a <strong data-start="188" data-end="207" id="isPasted">success message</strong> should be displayed. |
+| 6 | Click on the <strong data-start="67" data-end="83" id="isPasted">“Three Dots”</strong> (options) button for the current organization. | _ | It should displaying available options like Edit, Disable, Impersonate, Delete. |
+| 7 | Click on the <strong data-start="88" data-end="105" id="isPasted">“Impersonate”</strong> option. | _ | Upon clicking It should navigate to user screen and display the organization’s dashboard/home screen. |
+| 8 | Click on the <strong data-start="76" data-end="92" id="isPasted">User Profile</strong> icon and navigate to the <strong data-start="118" data-end="143">Organization Settings</strong> screen. | _ | The <strong data-start="180" data-end="205" id="isPasted">Organization Settings</strong> screen should be displayed. |
+| 9 | Verify the <strong>Studio toggle button</strong> should not be visible | _ | The <strong data-start="167" data-end="191" id="isPasted">Studio toggle/button</strong> should <strong data-start="199" data-end="206">not</strong> be visible, confirming that disabling the Beta toggle has successfully removed Studio access. |
+| 10 | Click on the <strong data-start="99" data-end="117" id="isPasted">“Sandbox Team”</strong> option. | _ | Upon clicking It&nbsp;should display a <strong data-start="174" data-end="195" id="isPasted">list of all GIDRs</strong> available for that organization. |
+
+**Zephyr key:** `CP-T131`
+
+{/* AUTO:END */} 

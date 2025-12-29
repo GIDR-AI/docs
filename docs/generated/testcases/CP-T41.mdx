@@ -1,0 +1,27 @@
+---
+title: "Verification and validation for the GIDR Live Auth functionality using valid credentials with an unauthorized user."
+description: "Auto-generated from Zephyr Scale test case CP-T41"
+---
+
+## Notes (manual) _Add examples, edge cases, screenshots, caveats, and cross-links here. This section is not overwritten._ {/* AUTO:BEGIN */}
+
+## Summary
+Verify the GIDR functionality for an unauthorized user.
+
+## Preconditions
+User should be having the published GIDR Link.
+
+## Steps
+
+| # | Action | Data | Expected |
+|---:|---|---|---|
+| 1 | Click on the "Publish" button. | _ | The "Publish" button should be clickable, and upon clicking it, it has to open the "Publish GIDR" popup with embedded code. |
+| 2 | Click on the "GIDR website" copy icon. | _ | The "GIDR website" icon should be clickable, and upon clicking, it should copy the URL followed by an alert message. |
+| 3 | Open the "New Window" and copy the URL. | _ | Verify that the "URL" has navigated to the GIDR which has been published and is displaying all the test panels within it. |
+| 4 | Verify that it has landed on the "Organization's login" page. | _ | It should land on the "Organization's login" screen with username and password input fields, along with a Login button. |
+| 5 | Enter the valid credentials and click on the Login button. | _ | The Login button should be clickable, and upon clicking, it should navigate to the GIDR Live page. |
+| 6 | Verify that you have landed on the "GIDR live" page. | _ | The "GIDR" page should be displayed with a message "You don't have access to this GIDR". |
+
+**Zephyr key:** `CP-T41`
+
+{/* AUTO:END */} 

@@ -1,0 +1,31 @@
+---
+title: "Data source validation from the create flow."
+description: "Auto-generated from Zephyr Scale test case CP-T111"
+---
+
+## Notes (manual) _Add examples, edge cases, screenshots, caveats, and cross-links here. This section is not overwritten._ {/* AUTO:BEGIN */}
+
+## Summary
+Verification and validation for connectors u<u>ploading flow</u>
+
+## Preconditions
+User should be having a account and he should be having access to create a GIDR.
+
+## Steps
+
+| # | Action | Data | Expected |
+|---:|---|---|---|
+| 1 | Click on Agent GIDR | NA | The "Agent GIDR" button should be clickable, and upon clicking it, the "Create GIDR" screen should open. |
+| 2 | Click on "Next" button with empty textfields. | NA | The "Next" button should be clickable, and upon clicking it, an error validation message should be displayed for both fields. |
+| 3 | Enter GIDR name and Description [Both Mandatory fields] | Connectors, Testing data source connector | The entered value should be reflected in the text fields. |
+| 4 | Click on Next button | NA | The "Next" button should be clickable, and upon clicking it, the "Connect Your Data" screen should be displayed. |
+| 5 | Click on "Connectors" radio button | NA | The "Connector" button should be clickable, and upon clicking it, all related connector fields should be displayed. |
+| 6 | Verify the "Connect" button. | NA | Initially "Connect" button should be disable. |
+| 7 | Enter "Connector name" and Description | Add testing connector, verifying add connector flow. | The entered value should be reflected in the text fields. |
+| 8 | Enter the mondatory fields like Access Key ID,Secret Access Key and &nbsp;Bucket Name. | AKIAXXXXXXXXXXXXXXXX, lscDsL23Jop7x6VuDs4ysK5Lx9N+7HN47m27LrJd,<br>gsts-client1-test-source&nbsp; | The entered value should be reflected in the text fields. |
+| 9 | Verify "Sync Frequency" radio buttons. [Daily, Weekly and Never] | NA | All three button Should be visible and clickable. |
+| 10 | Select "Weekly" radio button. | NA | The "Sync Weekly On" dropdown should be selectable and displayed. |
+
+**Zephyr key:** `CP-T111`
+
+{/* AUTO:END */} 

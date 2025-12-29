@@ -1,0 +1,181 @@
+{
+  "authentication > signing-in": [
+    "CP-T8",
+    "CP-T74",
+    "CP-T75",
+    "CP-T76",
+    "CP-T105",
+    "CP-T106",
+    "CP-T107",
+    "CP-T108"
+  ],
+  "uncategorized": [
+    "CP-T9",
+    "CP-T34",
+    "CP-T35",
+    "CP-T36",
+    "CP-T38",
+    "CP-T39",
+    "CP-T40",
+    "CP-T41",
+    "CP-T48",
+    "CP-T49",
+    "CP-T50",
+    "CP-T51",
+    "CP-T52",
+    "CP-T53",
+    "CP-T54",
+    "CP-T55",
+    "CP-T56",
+    "CP-T57",
+    "CP-T58",
+    "CP-T59",
+    "CP-T60",
+    "CP-T62",
+    "CP-T63",
+    "CP-T65",
+    "CP-T66",
+    "CP-T67",
+    "CP-T68",
+    "CP-T70",
+    "CP-T71",
+    "CP-T73",
+    "CP-T77",
+    "CP-T80",
+    "CP-T81",
+    "CP-T82",
+    "CP-T83",
+    "CP-T84",
+    "CP-T85",
+    "CP-T86",
+    "CP-T87",
+    "CP-T88",
+    "CP-T89",
+    "CP-T90",
+    "CP-T91",
+    "CP-T92",
+    "CP-T93",
+    "CP-T94",
+    "CP-T95",
+    "CP-T96",
+    "CP-T97",
+    "CP-T98",
+    "CP-T99",
+    "CP-T100",
+    "CP-T101",
+    "CP-T109",
+    "CP-T110",
+    "CP-T118",
+    "CP-T126",
+    "CP-T127",
+    "CP-T128",
+    "CP-T129",
+    "CP-T135",
+    "CP-T137",
+    "CP-T141",
+    "CP-T150",
+    "CP-T151",
+    "CP-T153",
+    "CP-T154"
+  ],
+  "authentication > signing-in > error-cases": [
+    "CP-T10"
+  ],
+  "authentication > signing-up > error-cases": [
+    "CP-T11",
+    "CP-T24"
+  ],
+  "gidrs > create-gidr": [
+    "CP-T25",
+    "CP-T26",
+    "CP-T42"
+  ],
+  "gidr > info > gidr-info": [
+    "CP-T27",
+    "CP-T45"
+  ],
+  "gidr > ingestion-settings > data-sources": [
+    "CP-T28",
+    "CP-T37",
+    "CP-T43",
+    "CP-T44"
+  ],
+  "gidr > prompts": [
+    "CP-T29",
+    "CP-T46"
+  ],
+  "gidr > info > general-settings": [
+    "CP-T30",
+    "CP-T47"
+  ],
+  "authentication > signing-up": [
+    "CP-T31"
+  ],
+  "organizations > member-profile": [
+    "CP-T32",
+    "CP-T124"
+  ],
+  "authentication > signing-in > logout": [
+    "CP-T33",
+    "CP-T78"
+  ],
+  "organizations > organization-settings": [
+    "CP-T61"
+  ],
+  "organizations > invite-members": [
+    "CP-T64",
+    "CP-T69"
+  ],
+  "gidrs > language-selection": [
+    "CP-T72",
+    "CP-T79"
+  ],
+  "gidr > design > gidgets-library": [
+    "CP-T102",
+    "CP-T103",
+    "CP-T104",
+    "CP-T113",
+    "CP-T114",
+    "CP-T115",
+    "CP-T116",
+    "CP-T117",
+    "CP-T119",
+    "CP-T120",
+    "CP-T121",
+    "CP-T122",
+    "CP-T138",
+    "CP-T139",
+    "CP-T140",
+    "CP-T149"
+  ],
+  "gidr > ingestion-settings > data-sources > connectors": [
+    "CP-T111",
+    "CP-T112",
+    "CP-T132",
+    "CP-T133"
+  ],
+  "gidr > ingestion-settings > data-sources > files": [
+    "CP-T123",
+    "CP-T125",
+    "CP-T152"
+  ],
+  "gidr > design > studio": [
+    "CP-T130",
+    "CP-T131",
+    "CP-T134",
+    "CP-T145",
+    "CP-T146"
+  ],
+  "gidr > workflows > nodes": [
+    "CP-T136",
+    "CP-T143",
+    "CP-T144",
+    "CP-T148"
+  ],
+  "gidr > ingestion-settings > data-sources > database": [
+    "CP-T142"
+  ],
+  "gidrs > mcp-server": [
+    "CP-T147"
+  ]
+}

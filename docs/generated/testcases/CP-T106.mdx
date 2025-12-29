@@ -1,0 +1,25 @@
+---
+title: "Using the cross region login, the asia-northeast region connects with the US-Central organization."
+description: "Auto-generated from Zephyr Scale test case CP-T106"
+---
+
+## Notes (manual) _Add examples, edge cases, screenshots, caveats, and cross-links here. This section is not overwritten._ {/* AUTO:BEGIN */}
+
+## Summary
+Verify that the cross region invitaion and joining functionality is working as expected
+
+## Preconditions
+An organization must be created in the US-Central region, and at least one team should be created.
+
+## Steps
+
+| # | Action | Data | Expected |
+|---:|---|---|---|
+| 1 | Send an organization invitaion to the member | Member emailID:- <strong>vijay.anand.allabothulla+asia@gidr.ai</strong> | The invitation must be sent, and the member should receive the email with the invitation link.Additionally, the organization owner should receive the CC email. |
+| 2 | Click on the invitation link and verify that it opens the authentication screen to sign in to the team. | password:- <strong>Password1!</strong> | The link should navigate to the authentication screen, and after authentication, it should navigate to the home screen along with the switch region drop-down, which should be defaultly selected to the home region. |
+| 3 | Verify that the drop-down is clickable and allows the user to switch the region. | _ | The drop-down should be clickable, and upon clicking, it should display the region-wise data in the organization side bar. |
+| 4 | Verify that the GIDR CRUD is working as expected. | _ | The GIDR CRUD operation should be working as it is. |
+
+**Zephyr key:** `CP-T106`
+
+{/* AUTO:END */} 
