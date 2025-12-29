@@ -1,0 +1,30 @@
+---
+title: "Validate Ingestion Settings language by changing it in the member profile."
+description: "Auto-generated from Zephyr Scale test case CP-T124"
+---
+
+## Notes (manual) _Add examples, edge cases, screenshots, caveats, and cross-links here. This section is not overwritten._ {/* AUTO:BEGIN */}
+
+## Summary
+Validate the language in the Ingestion Settings by updating the default language in the member profile.
+
+## Preconditions
+User should be having a account.
+
+## Steps
+
+| # | Action | Data | Expected |
+|---:|---|---|---|
+| 1 | Click on "Member profile" button. | _ | The "Member profile" button should be clickable, and upon clicking it, the "Member profile" screen should be displayed. |
+| 2 | Click the default language dropdown and change the language to Japanese. | Language: Japanese | The dropdown should be clickable, and upon clicking, the language should be selectable. |
+| 3 | Click on "Save Changes" button. | _ | It should be clickable, and upon clicking, it should be saved. |
+| 4 | Verify success message. | Success Message: "Organization updated successfully" | Success message should be display.&nbsp; |
+| 5 | Create a new GIDR by selecting "Create from Scratch" without uploading any files. | _ | The new GIDR should be created and opened. |
+| 6 | Click the "Info" button. | _ | The "Info" button should be clickable, and upon clicking it, the "GIDR info" screen should be displayed. |
+| 7 | Click "Ingestion Setting". | _ | It should be clickable, and upon clicking it, it should open. |
+| 8 | Verify the "language" dropdown option. | _ | The language under Ingestion Settings should be the same as the default language [Japanese] |
+| 9 | Repeat steps 1 to 8 with English selected as the default language. | Language: English | This time language under Ingestion Settings should be the same as the default language [English] |
+
+**Zephyr key:** `CP-T124`
+
+{/* AUTO:END */} 

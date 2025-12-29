@@ -1,0 +1,31 @@
+---
+title: "GIDR info popup verification and validation for AI Search GIDR."
+description: "Auto-generated from Zephyr Scale test case CP-T45"
+---
+
+## Notes (manual) _Add examples, edge cases, screenshots, caveats, and cross-links here. This section is not overwritten._ {/* AUTO:BEGIN */}
+
+## Summary
+Verify editing of GIDR is working as expected
+
+## Preconditions
+User should be created at least one GIDR
+
+## Steps
+
+| # | Action | Data | Expected |
+|---:|---|---|---|
+| 1 | Check whether the teams page is displayed. | _ | The team's page should load with all list of created GIDR's. |
+| 2 | Click on the "GIDR" on which you wants to edit. | _ | The GIDR which is selected should be displayed and navigated to the GIDR page. |
+| 3 | Click on the "GIDR info" | _ | The "GIDR info" popup contains the created information, indicates the published status, and displays placeholders for "GIDR Name" and "GIDR Description," as well as a Logo field with a "Change" button and a "Save Changes" button. |
+| 4 | Click on the "GIDR name"' field to edit and update the GIDR name. | _ | The "GIDR name" field should be editable |
+| 5 | Click on the "Description" field to edit and update the GIDR Description. | _ | The "Description" field should be editable |
+| 6 | Check and Verify that the default logo is displayed and "Change" button is working as expected | _ | The default logo should be displayed and "Change" button should be clickable ,and upon clicking it should navigate to the file explore. |
+| 7 | Click on the "Change" button to select a new logo. | _ | The "Change" button should be clickable, and upon clicking, it should display the ''Change logo'' popup, which includes a "Click to Upload'' button. |
+| 8 | Click on the "Click to Upload" button to select and upload a file. | _ | The "Click to upload" container should be clickable. Upon clicking, it should open the File explorer window. |
+| 9 | Select the File from the File explorer. | _ | Choose a file to upload, and ensure the uploaded file is displayed. |
+| 10 | Click on the "Save" button. | _ | Ensure that the uploaded file is displayed. |
+
+**Zephyr key:** `CP-T45`
+
+{/* AUTO:END */} 

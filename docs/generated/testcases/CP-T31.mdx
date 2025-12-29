@@ -1,0 +1,31 @@
+---
+title: "SignUp using valid email and password"
+description: "Auto-generated from Zephyr Scale test case CP-T31"
+---
+
+## Notes (manual) _Add examples, edge cases, screenshots, caveats, and cross-links here. This section is not overwritten._ {/* AUTO:BEGIN */}
+
+## Summary
+Verify user is able to register by using valid email
+
+## Preconditions
+User should be on landing page
+
+## Steps
+
+| # | Action | Data | Expected |
+|---:|---|---|---|
+| 1 | <br />Open the website and enter the "GIDR" URL. | https://gidr-test1.web.app/en/signup | The browser should open and land on the landing page/Sign Up Page. |
+| 2 | Click on the "Your email" field and enter the email address. | username@gmail.com | The text field should accept input from the user and display the entered value. |
+| 3 | Click on the "Create password" field and enter the password. | User1234 | The text field should accept input from the user and mask the password. |
+| 4 | Click on the "Repeat password" field and enter the same password as in the "Create password" field. | User1234 | The text field should accept input from the user and mask the password. |
+| 5 | Assess the functionality of the eye icon. | _ | By default, the eye icon should hide the password. |
+| 6 | Check whether the eye icon is clickable. | _ | It should be clickable, and on click, it should toggle between showing and hiding the password. |
+| 7 | Click on the eye icon to toggle password visibility. | _ | It should change to a view icon and display the password. |
+| 8 | Click on the sign-up button. | _ | The button should be clickable, and on click, it should initiate the sign-up process. |
+| 9 | Verify navigation to the code verification screen. | _ | It should display the message "We've sent you a 4-digit code" along with input fields for the code. |
+| 10 | Click on the code field and enter the verification code sent to the email. | 1234 | The field should be clickable and allow the user inputs. |
+
+**Zephyr key:** `CP-T31`
+
+{/* AUTO:END */} 

@@ -1,0 +1,24 @@
+---
+title: "Verification and validation for accessing embadded gidr using invalid credentials"
+description: "Auto-generated from Zephyr Scale test case CP-T100"
+---
+
+## Notes (manual) _Add examples, edge cases, screenshots, caveats, and cross-links here. This section is not overwritten._ {/* AUTO:BEGIN */}
+
+## Summary
+Verify that GIDR is accessible for invalide credentials.
+
+## Preconditions
+User should be having published embadded GIDR HTML file.
+
+## Steps
+
+| # | Action | Data | Expected |
+|---:|---|---|---|
+| 1 | Open the embedded GIDR file using the browser. | _ | The "File" should open the authentication screen. |
+| 2 | Enter the invalid "User name", "Password" and click on the "Submit" button. | _ | The "Text " field and "Submit" button should be clickable, and upon clicking it, it should allow user input and clicks. |
+| 3 | Verify that it shown a toaster error with "Incorrect email or password ". | _ | The "Incorrect email or password " error toaster should be displayed. |
+
+**Zephyr key:** `CP-T100`
+
+{/* AUTO:END */} 

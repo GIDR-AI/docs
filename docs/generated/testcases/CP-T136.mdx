@@ -1,0 +1,31 @@
+---
+title: "Validation of ReAct Node Functionality in Workflow"
+description: "Auto-generated from Zephyr Scale test case CP-T136"
+---
+
+## Notes (manual) _Add examples, edge cases, screenshots, caveats, and cross-links here. This section is not overwritten._ {/* AUTO:BEGIN */}
+
+## Summary
+To verify and validate that the <strong data-start="206" data-end="220" id="isPasted">ReAct Node</strong> can be added, configured, and executed successfully within the workflow, and that it responds as expected based on the defined properties and logic.
+
+## Preconditions
+<ol id="isPasted"><li data-start="74" data-end="118"><p data-start="77" data-end="118">User has valid Super Admin credentials.</p></li><li data-start="119" data-end="169"><p data-start="122" data-end="169">At least one organization is already created.</p></li><li data-start="170" data-end="258"><p data-start="173" data-end="258">The organization has the <strong data-start="198" data-end="221">Beta toggle enabled</strong> (Studio feature currently active).</p></li></ol>
+
+## Steps
+
+| # | Action | Data | Expected |
+|---:|---|---|---|
+| 1 | Login as a super Admin | super@gidr.ai<br id="isPasted">Password1! | Upon successful login, the <strong data-start="138" data-end="177" data-is-only-node="" id="isPasted">Super Admin Dashboard (Home Screen)</strong> should be displayed. |
+| 2 | Click on the <strong data-start="67" data-end="83" id="isPasted">“Three Dots”</strong> (options) button for the newly created organization. | Organization Name: new | It should displaying available options like Edit, Disable, Impersonate, Delete. |
+| 3 | Click on the <strong data-start="88" data-end="105" id="isPasted">“Impersonate”</strong> option. | _ | Upon clicking It should navigate to user screen and display the organization’s dashboard/home screen. |
+| 4 | Click on the <strong data-start="76" data-end="92" id="isPasted">User Profile</strong> icon and navigate to the <strong data-start="118" data-end="143">Organization Settings</strong> screen. | _ | The Organization Settings screen should be displayed, showing configuration options, and the Studio toggle button should be turned on. |
+| 5 | Click on the <strong data-start="99" data-end="117" id="isPasted">“Sandbox Team”</strong> option and create a new <strong data-start="142" data-end="150" data-is-only-node="">GIDR</strong>. | _ | A new <strong data-start="182" data-end="190" id="isPasted">GIDR</strong> should be successfully created under the Sandbox Team, and a confirmation/success message should be displayed. |
+| 6 | Open the any&nbsp;<strong data-start="72" data-end="80" id="isPasted">GIDR</strong> and check the header section. | _ | The <strong data-start="139" data-end="149" id="isPasted">Studio</strong> tab should be visible in the header, confirming that enabling the <strong data-start="216" data-end="231">Beta toggle</strong> has successfully enabled Studio. |
+| 7 | Verify the GIDRs list and verify that the <strong id="isPasted">Flow Gadget</strong> is present. | _ | The Flow Gadget should be displayed in the GIDRs list with the correct name and should be visible to the user. |
+| 8 | Click on the <strong data-start="65" data-end="75" id="isPasted">Studio</strong> tab inside the GIDR. | _ | The <strong data-start="125" data-end="142" id="isPasted">Studio screen</strong> should open, and the <strong data-start="164" data-end="182">“Add Workflow”</strong> button should be visible and enabled for use. |
+| 9 | Click on the <strong data-start="97" data-end="115" id="isPasted">Add Workflow (+)</strong> button. | _ | Upon clicking It should display the <strong data-start="183" data-end="209" id="isPasted">Create Workflow popup and</strong> allowing the user to create a new workflow. |
+| 10 | Enter a valid workflow name and click on the <strong data-start="135" data-end="143" id="isPasted">Save</strong> button. | Name: Workflow 4 | The workflow should be <strong id="isPasted">saved successfully</strong>, and a confirmation message should be displayed. The newly created workflow should also appear in the workflow list and also display the all available nodes. |
+
+**Zephyr key:** `CP-T136`
+
+{/* AUTO:END */} 

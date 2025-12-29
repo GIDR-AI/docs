@@ -1,0 +1,31 @@
+---
+title: "Verify and validate Insight gidget work flow."
+description: "Auto-generated from Zephyr Scale test case CP-T114"
+---
+
+## Notes (manual) _Add examples, edge cases, screenshots, caveats, and cross-links here. This section is not overwritten._ {/* AUTO:BEGIN */}
+
+## Summary
+<span style="color: rgb(9, 30, 66); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: -0.07px; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;" id="isPasted">Checking features of Insight gidget</span>
+
+## Preconditions
+"Verifying gidgets work flow" gidr should be created.
+
+## Steps
+
+| # | Action | Data | Expected |
+|---:|---|---|---|
+| 1 | Click on existing GIDR name. | GIDR Name: Verifying gidgets work flow | The GIDR should be clickable. Upon clicking, it should open with the Design tab. |
+| 2 | Drag and drop the Insight gidget from the list of gidget templates<span style="white-space:pre;" id="isPasted">.</span> | _ | The Insight gidget should be draggable and droppable. |
+| 3 | Increase the width and height of the Insight gidget. | _ | Check whether the height and length should be adjustable. |
+| 4 | Check that the gidget question and answer panel | _ | The question and answer panels should be clickable, allowing the user to ask a question upon clicking. |
+| 5 | Ask the question without adding the xlsx file | _ | It should be display the "table does not exist in the database." contained text. |
+| 6 | Click on "Data sources" and add xlsx file into the "database".<span style="white-space:pre;" id="isPasted">&nbsp; &nbsp;&nbsp;</span> | File name: Employee.xlsx | It should be add and display the success toast message. |
+| 7 | Select the uploaded file from the Insight gidget. | File name: Employee.xlsx | The list of uploaded files should be displayed and selectable. |
+| 8 | Click the gidget question input field and ask the question/query. | _ | It should be provide the related answer. |
+| 9 | Change the "Gidget name" and upload "Avatar" | _ | The input field should be clickable and editable upon clicking, and the avatar should be uploaded successfully. |
+| 10 | Click on "Maximum table rows" and change the row value. | Add Maximum row table is 6 | The input fields should be clickable and editable upon clicking. |
+
+**Zephyr key:** `CP-T114`
+
+{/* AUTO:END */} 

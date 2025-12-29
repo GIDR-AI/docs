@@ -1,0 +1,25 @@
+---
+title: "Verification and validation for super admin impersonate flow."
+description: "Auto-generated from Zephyr Scale test case CP-T97"
+---
+
+## Notes (manual) _Add examples, edge cases, screenshots, caveats, and cross-links here. This section is not overwritten._ {/* AUTO:BEGIN */}
+
+## Summary
+Verify that the super admin is able to impersonate member.
+
+## Preconditions
+Login as a super admin.
+
+## Steps
+
+| # | Action | Data | Expected |
+|---:|---|---|---|
+| 1 | Verify that the suoer admin dash board is displayed with list of organizations. | _ | The list should display with the respective action button and that should be clickable. |
+| 2 | Verify that the "Action" button is clickable. | _ | The button should be clickable, and upon clicking, it should show a list of options. |
+| 3 | Click on the Impersonte button. | _ | The button should be displaye ,clickable and upon clicking it should open the impersonated organization. |
+| 4 | Check whether the admin is able to perform all the actions of the organization owner. | _ | The admin should be able to perform all actions, including deleting and editing the GIDR and Teams. |
+
+**Zephyr key:** `CP-T97`
+
+{/* AUTO:END */} 
