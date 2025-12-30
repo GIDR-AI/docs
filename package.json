@@ -1,0 +1,10 @@
+{
+  "name": "mintlify-docs",
+  "version": "1.0.0",
+  "description": "GIDR.ai documentation",
+  "scripts": {
+    "dev": "npx mint dev",
+    "start": "npx mint dev"
+  }
+}
+
