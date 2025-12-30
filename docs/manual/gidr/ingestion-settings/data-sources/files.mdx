@@ -5,8 +5,6 @@ description: "Documentation for Files"
 
 # Files
 
-{/* AUTO:BEGIN */}
-
 ## Prerequisites
 
 - User should be having a account and GIDR's.
@@ -20,7 +18,7 @@ description: "Documentation for Files"
 
 Login into Gidr application
 
-**Expected result:** validate user should able to login successfully&nbsp;
+**Expected result:** validate user should able to login successfully
 
 </Step>
 
@@ -32,9 +30,9 @@ Click Account info ​
 
 </Step>
 
-<Step title="Click organization settings&nbsp;">
+<Step title="Click organization settings">
 
-Click organization settings&nbsp;
+Click organization settings
 
 **Expected result:** organization setting tab should be clickable and should navigate to Organization page
 
@@ -44,7 +42,7 @@ Click organization settings&nbsp;
 
 Click "Bring Your Own LLM" tab inside organization page
 
-**Expected result:** "Bring Your Own LLM" tab should be clickable&nbsp;
+**Expected result:** "Bring Your Own LLM" tab should be clickable
 
 </Step>
 
@@ -52,7 +50,7 @@ Click "Bring Your Own LLM" tab inside organization page
 
 Click "Add LLM" button
 
-**Expected result:** "Add LLM" Button should be clickable and after clicking should open wizard pop-up to add Custom LLM<br><br>
+**Expected result:** "Add LLM" Button should be clickable and after clicking should open wizard pop-up to add Custom LLM
 
 </Step>
 
@@ -62,7 +60,7 @@ Create a Custom LLM using using Open Ai
 
 **Input:** `Open Ai Api Key : sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`
 
-**Expected result:** user should able to create Open Ai Custom LLM<br><br>
+**Expected result:** user should able to create Open Ai Custom LLM
 
 </Step>
 
@@ -70,7 +68,16 @@ Create a Custom LLM using using Open Ai
 
 else create a Custom LLM using Azure Open Ai
 
-**Input:** `"azureOpenAi_Api_key":"d9dfc4b0337645c2977308e001f2ef78",    "azureOpenAi_api_version":"2024-12-01-preview",    "azureOpenAi_endpoint":"https://openai-gidr-demo.openai.azure.com/",    "azureOpenAi_deployment_name":"gpt-5"`
+**Input:**
+
+```json
+{
+  "azureOpenAi_Api_key": "d9dfc4b0337645c2977308e001f2ef78",
+  "azureOpenAi_api_version": "2024-12-01-preview",
+  "azureOpenAi_endpoint": "https://openai-gidr-demo.openai.azure.com/",
+  "azureOpenAi_deployment_name": "gpt-5"
+}
+```
 
 **Expected result:** user should able to create Azure Open Ai Custom LLM
 
@@ -80,7 +87,7 @@ else create a Custom LLM using Azure Open Ai
 
 Click BYOLL named team
 
-**Expected result:** validate user should able to open the team&nbsp;
+**Expected result:** validate user should able to open the team
 
 </Step>
 
