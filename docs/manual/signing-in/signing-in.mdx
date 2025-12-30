@@ -12,7 +12,7 @@ description: "Documentation for Signing In"
 Verify user is able to log in using valid credentials
 
 <Info>
-This feature allows you to accomplish the task described above. Follow the procedures below to get started.
+  This feature allows you to accomplish the task described above. Follow the procedures below to get started.
 </Info>
 
 ## Prerequisites
@@ -26,60 +26,59 @@ This feature allows you to accomplish the task described above. Follow the proce
 ## Procedure
 
 <Steps>
+  <Step title="Open the browser and Enter GIDR URL">
+    Open the browser and Enter GIDR URL
 
-<Step title="Open the browser and Enter GIDR URL">
+    **Input:** `https://app.gidr.ai/en`
 
-Open the browser and Enter GIDR URL
+    **Expected result:** Browser should open and land on "Sign In" page
+  </Step>
+  <Step title="Click the 'Your email' field and enter user email">
+    Click the "Your email" field and enter user email
 
-**Input:** `https://app.gidr.ai/en`
+    **Input:** `vijay.anand.allabothulla@gidr.ai`
 
-**Expected result:** Browser should open and land on "Sign In" page
+    **Expected result:** "Your email" field should be editable
+  </Step>
+  <Step title="Click the 'Password' field and enter password">
+    Click the "Password" field and enter password
 
-</Step>
+    **Input:** `Password1!`
 
-<Step title="Click the 'Your email' field and enter user email">
+    **Expected result:** "Password" field should be editable
+  </Step>
+  <Step title="Click the 'SignIn' Button">
+    Click the "SignIn" Button
 
-Click the "Your email" field and enter user email
+    **Expected result:** The "Sign In" button should be enabled and should respond to clicks.
+  </Step>
+  <Step title="Verify that the 'Message' toaster popup is display...">
+    Verify that the "Message" toaster popup is displayed
 
-**Input:** `vijay.anand.allabothulla@gidr.ai`
-
-**Expected result:** "Your email" field should be editable
-
-</Step>
-
-<Step title="Click the 'Password' field and enter password">
-
-Click the "Password" field and enter password
-
-**Input:** `Password1!`
-
-**Expected result:** "Password" field should be editable
-
-</Step>
-
-<Step title="Click the 'SignIn' Button">
-
-Click the "SignIn" Button
-
-**Expected result:** The "Sign In" button should be enabled and should respond to clicks.
-
-</Step>
-
-<Step title="Verify that the 'Message' toaster popup is display...">
-
-Verify that the "Message" toaster popup is displayed
-
-**Expected result:** A success message "Signed in successfully" with a close icon, should appear before the user is redirected to the home page.
-
-</Step>
-
+    **Expected result:** A success message "Signed in successfully" with a close icon, should appear before the user is redirected to the home page.
+  </Step>
 </Steps>
 
 ## Examples
 
 <Note>
-Add practical examples here with realistic data and expected outcomes.
+  Add practical examples here with realistic data and expected outcomes.
 </Note>
+
+## Related Test Cases
+
+This documentation is derived from the following test cases:
+
+- [**`CP-T105`**](/docs/generated/testcases/CP-T105): Using the same region login, the US-Central region connects with the US-Central organization. (happy)
+- [**`CP-T106`**](/docs/generated/testcases/CP-T106): Using the cross region login, the asia-northeast region connects with the US-Central organization. (happy)
+- [**`CP-T107`**](/docs/generated/testcases/CP-T107): Verification and validation for super admin authentication with valid credentials (security)
+- [**`CP-T108`**](/docs/generated/testcases/CP-T108): Verification and validation for super admin authentication with In-valid credentials (security)
+- [**`CP-T74`**](/docs/generated/testcases/CP-T74): Verification and validation for super admin signin with valid credentials. (happy)
+- [**`CP-T75`**](/docs/generated/testcases/CP-T75): Verification and validation for super admin signin with in-valid credentials. (happy)
+- [**`CP-T76`**](/docs/generated/testcases/CP-T76): Verification and validation for super admin signin with normal credentials. (happy)
+- [**`CP-T8`**](/docs/generated/testcases/CP-T8): SignIn using valid credentials (happy)
+
+{/* AUTO:END */}
 
 ## Notes (manual)
 
