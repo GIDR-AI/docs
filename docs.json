@@ -10,14 +10,14 @@
       {
         "group": "Organization Admin",
         "pages": [
-          "docs/manual/organizations/organization-settings",
+          "docs/organization-admin/organization-settings",
           {
             "group": "Teams management",
             "pages": [
-              "docs/manual/gidrs/gidrs",
-              "docs/manual/gidrs/analytics",
-              "docs/manual/gidrs/members",
-              "docs/manual/gidrs/mcp-server"
+              "docs/organization-admin/teams-management/gidrs",
+              "docs/organization-admin/teams-management/analytics",
+              "docs/organization-admin/teams-management/members",
+              "docs/organization-admin/teams-management/mcp-server"
             ]
           }
         ]
@@ -25,40 +25,40 @@
       {
         "group": "GIDR Admin",
         "pages": [
-          "docs/manual/organizations/member-profile",
+          "docs/gidr-admin/member-profile",
           {
             "group": "GIDR",
             "pages": [
-              "docs/manual/gidrs/create-gidr",
+              "docs/gidr-admin/gidr/create-gidr",
               {
                 "group": "Info",
                 "pages": [
-                  "docs/manual/gidr/info/gidr-info",
-                  "docs/manual/gidr/prompts",
-                  "docs/manual/gidr/ingestion-settings/ingestion-settings"
+                  "docs/gidr-admin/gidr/info/gidr-info",
+                  "docs/gidr-admin/gidr/prompts",
+                  "docs/gidr-admin/gidr/ingestion-settings/ingestion-settings"
                 ]
               },
               {
                 "group": "Data sources",
                 "pages": [
-                  "docs/manual/gidr/ingestion-settings/data-sources/files",
-                  "docs/manual/gidr/ingestion-settings/data-sources/urls",
-                  "docs/manual/gidr/ingestion-settings/data-sources/connectors",
-                  "docs/manual/gidr/ingestion-settings/data-sources/database",
-                  "docs/manual/gidr/ingestion-settings/tags"
+                  "docs/gidr-admin/gidr/ingestion-settings/data-sources/files",
+                  "docs/gidr-admin/gidr/ingestion-settings/data-sources/urls",
+                  "docs/gidr-admin/gidr/ingestion-settings/data-sources/connectors",
+                  "docs/gidr-admin/gidr/ingestion-settings/data-sources/database",
+                  "docs/gidr-admin/gidr/ingestion-settings/tags"
                 ]
               },
               {
                 "group": "Design",
                 "pages": [
-                  "docs/manual/gidr/design/gidgets-library"
+                  "docs/gidr-admin/gidr/design/gidgets-library"
                 ]
               },
               {
                 "group": "Studio",
                 "pages": [
-                  "docs/manual/gidr/workflows",
-                  "docs/manual/gidr/workflows/nodes"
+                  "docs/gidr-admin/gidr/workflows",
+                  "docs/gidr-admin/gidr/workflows/nodes"
                 ]
               }
             ]
@@ -68,8 +68,8 @@
       {
         "group": "End User",
         "pages": [
-          "docs/manual/end-user/desktop",
-          "docs/manual/end-user/mobile"
+          "docs/end-user/desktop",
+          "docs/end-user/mobile"
         ]
       }
     ]
