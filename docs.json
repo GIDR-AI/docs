@@ -8,74 +8,54 @@
   "navigation": {
     "groups": [
       {
-        "group": "Documentation",
+        "group": "Organization Admin",
         "pages": [
-          "docs/manual/documentation-structure",
-          "docs/manual/landing-page",
+          "docs/manual/organizations/organization-settings",
           {
-            "group": "Signing In",
+            "group": "Teams management",
             "pages": [
-              "docs/manual/signing-in/signing-in",
-              "docs/manual/signing-in/error-cases",
-              "docs/manual/signing-in/logout",
-              "docs/manual/signing-in/password-management"
-            ]
-          },
-          {
-            "group": "Organizations and Teams",
-            "pages": [
-              "docs/manual/organizations/create-team",
-              "docs/manual/organizations/invite-members",
-              "docs/manual/organizations/member-profile",
-              "docs/manual/organizations/organization-settings"
-            ]
-          },
-          {
-            "group": "GIDRs",
-            "pages": [
+              "docs/manual/gidrs/gidrs",
               "docs/manual/gidrs/analytics",
-              "docs/manual/gidrs/create-gidr",
-              "docs/manual/gidrs/language-selection",
-              "docs/manual/gidrs/mcp-server",
-              "docs/manual/gidrs/members"
+              "docs/manual/gidrs/members",
+              "docs/manual/gidrs/mcp-server"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "group": "GIDR Admin",
+        "pages": [
+          "docs/manual/organizations/member-profile",
           {
             "group": "GIDR",
             "pages": [
-              "docs/manual/gidr/prompts",
+              "docs/manual/gidrs/create-gidr",
               {
                 "group": "Info",
                 "pages": [
-                  "docs/manual/gidr/info/general-settings",
-                  "docs/manual/gidr/info/gidr-info"
+                  "docs/manual/gidr/info/gidr-info",
+                  "docs/manual/gidr/prompts",
+                  "docs/manual/gidr/ingestion-settings/ingestion-settings"
                 ]
               },
               {
-                "group": "Ingestion Settings",
+                "group": "Data sources",
                 "pages": [
-                  "docs/manual/gidr/ingestion-settings/data-sources",
-                  "docs/manual/gidr/ingestion-settings/tags",
-                  {
-                    "group": "Data Sources",
-                    "pages": [
-                      "docs/manual/gidr/ingestion-settings/data-sources/connectors",
-                      "docs/manual/gidr/ingestion-settings/data-sources/database",
-                      "docs/manual/gidr/ingestion-settings/data-sources/files",
-                      "docs/manual/gidr/ingestion-settings/data-sources/urls"
-                    ]
-                  }
+                  "docs/manual/gidr/ingestion-settings/data-sources/files",
+                  "docs/manual/gidr/ingestion-settings/data-sources/urls",
+                  "docs/manual/gidr/ingestion-settings/data-sources/connectors",
+                  "docs/manual/gidr/ingestion-settings/data-sources/database",
+                  "docs/manual/gidr/ingestion-settings/tags"
                 ]
               },
               {
                 "group": "Design",
                 "pages": [
-                  "docs/manual/gidr/design/gidgets-library",
-                  "docs/manual/gidr/design/studio"
+                  "docs/manual/gidr/design/gidgets-library"
                 ]
               },
               {
-                "group": "Workflows",
+                "group": "Studio",
                 "pages": [
                   "docs/manual/gidr/workflows",
                   "docs/manual/gidr/workflows/nodes"
@@ -86,144 +66,10 @@
         ]
       },
       {
-        "group": "Test Cases (Generated)",
+        "group": "End User",
         "pages": [
-          "docs/generated/testcases/index",
-          "docs/generated/testcases/CP-T10",
-          "docs/generated/testcases/CP-T100",
-          "docs/generated/testcases/CP-T101",
-          "docs/generated/testcases/CP-T102",
-          "docs/generated/testcases/CP-T103",
-          "docs/generated/testcases/CP-T104",
-          "docs/generated/testcases/CP-T105",
-          "docs/generated/testcases/CP-T106",
-          "docs/generated/testcases/CP-T107",
-          "docs/generated/testcases/CP-T108",
-          "docs/generated/testcases/CP-T109",
-          "docs/generated/testcases/CP-T11",
-          "docs/generated/testcases/CP-T110",
-          "docs/generated/testcases/CP-T111",
-          "docs/generated/testcases/CP-T112",
-          "docs/generated/testcases/CP-T113",
-          "docs/generated/testcases/CP-T114",
-          "docs/generated/testcases/CP-T115",
-          "docs/generated/testcases/CP-T116",
-          "docs/generated/testcases/CP-T117",
-          "docs/generated/testcases/CP-T118",
-          "docs/generated/testcases/CP-T119",
-          "docs/generated/testcases/CP-T120",
-          "docs/generated/testcases/CP-T121",
-          "docs/generated/testcases/CP-T122",
-          "docs/generated/testcases/CP-T123",
-          "docs/generated/testcases/CP-T124",
-          "docs/generated/testcases/CP-T125",
-          "docs/generated/testcases/CP-T126",
-          "docs/generated/testcases/CP-T127",
-          "docs/generated/testcases/CP-T128",
-          "docs/generated/testcases/CP-T129",
-          "docs/generated/testcases/CP-T130",
-          "docs/generated/testcases/CP-T131",
-          "docs/generated/testcases/CP-T132",
-          "docs/generated/testcases/CP-T133",
-          "docs/generated/testcases/CP-T134",
-          "docs/generated/testcases/CP-T135",
-          "docs/generated/testcases/CP-T136",
-          "docs/generated/testcases/CP-T137",
-          "docs/generated/testcases/CP-T138",
-          "docs/generated/testcases/CP-T139",
-          "docs/generated/testcases/CP-T140",
-          "docs/generated/testcases/CP-T141",
-          "docs/generated/testcases/CP-T142",
-          "docs/generated/testcases/CP-T143",
-          "docs/generated/testcases/CP-T144",
-          "docs/generated/testcases/CP-T145",
-          "docs/generated/testcases/CP-T146",
-          "docs/generated/testcases/CP-T147",
-          "docs/generated/testcases/CP-T148",
-          "docs/generated/testcases/CP-T149",
-          "docs/generated/testcases/CP-T150",
-          "docs/generated/testcases/CP-T151",
-          "docs/generated/testcases/CP-T152",
-          "docs/generated/testcases/CP-T153",
-          "docs/generated/testcases/CP-T154",
-          "docs/generated/testcases/CP-T24",
-          "docs/generated/testcases/CP-T25",
-          "docs/generated/testcases/CP-T26",
-          "docs/generated/testcases/CP-T27",
-          "docs/generated/testcases/CP-T28",
-          "docs/generated/testcases/CP-T29",
-          "docs/generated/testcases/CP-T30",
-          "docs/generated/testcases/CP-T31",
-          "docs/generated/testcases/CP-T32",
-          "docs/generated/testcases/CP-T33",
-          "docs/generated/testcases/CP-T34",
-          "docs/generated/testcases/CP-T35",
-          "docs/generated/testcases/CP-T36",
-          "docs/generated/testcases/CP-T37",
-          "docs/generated/testcases/CP-T38",
-          "docs/generated/testcases/CP-T39",
-          "docs/generated/testcases/CP-T40",
-          "docs/generated/testcases/CP-T41",
-          "docs/generated/testcases/CP-T42",
-          "docs/generated/testcases/CP-T43",
-          "docs/generated/testcases/CP-T44",
-          "docs/generated/testcases/CP-T45",
-          "docs/generated/testcases/CP-T46",
-          "docs/generated/testcases/CP-T47",
-          "docs/generated/testcases/CP-T48",
-          "docs/generated/testcases/CP-T49",
-          "docs/generated/testcases/CP-T50",
-          "docs/generated/testcases/CP-T51",
-          "docs/generated/testcases/CP-T52",
-          "docs/generated/testcases/CP-T53",
-          "docs/generated/testcases/CP-T54",
-          "docs/generated/testcases/CP-T55",
-          "docs/generated/testcases/CP-T56",
-          "docs/generated/testcases/CP-T57",
-          "docs/generated/testcases/CP-T58",
-          "docs/generated/testcases/CP-T59",
-          "docs/generated/testcases/CP-T60",
-          "docs/generated/testcases/CP-T61",
-          "docs/generated/testcases/CP-T62",
-          "docs/generated/testcases/CP-T63",
-          "docs/generated/testcases/CP-T64",
-          "docs/generated/testcases/CP-T65",
-          "docs/generated/testcases/CP-T66",
-          "docs/generated/testcases/CP-T67",
-          "docs/generated/testcases/CP-T68",
-          "docs/generated/testcases/CP-T69",
-          "docs/generated/testcases/CP-T70",
-          "docs/generated/testcases/CP-T71",
-          "docs/generated/testcases/CP-T72",
-          "docs/generated/testcases/CP-T73",
-          "docs/generated/testcases/CP-T74",
-          "docs/generated/testcases/CP-T75",
-          "docs/generated/testcases/CP-T76",
-          "docs/generated/testcases/CP-T77",
-          "docs/generated/testcases/CP-T78",
-          "docs/generated/testcases/CP-T79",
-          "docs/generated/testcases/CP-T8",
-          "docs/generated/testcases/CP-T80",
-          "docs/generated/testcases/CP-T81",
-          "docs/generated/testcases/CP-T82",
-          "docs/generated/testcases/CP-T83",
-          "docs/generated/testcases/CP-T84",
-          "docs/generated/testcases/CP-T85",
-          "docs/generated/testcases/CP-T86",
-          "docs/generated/testcases/CP-T87",
-          "docs/generated/testcases/CP-T88",
-          "docs/generated/testcases/CP-T89",
-          "docs/generated/testcases/CP-T9",
-          "docs/generated/testcases/CP-T90",
-          "docs/generated/testcases/CP-T91",
-          "docs/generated/testcases/CP-T92",
-          "docs/generated/testcases/CP-T93",
-          "docs/generated/testcases/CP-T94",
-          "docs/generated/testcases/CP-T95",
-          "docs/generated/testcases/CP-T96",
-          "docs/generated/testcases/CP-T97",
-          "docs/generated/testcases/CP-T98",
-          "docs/generated/testcases/CP-T99"
+          "docs/manual/end-user/desktop",
+          "docs/manual/end-user/mobile"
         ]
       }
     ]
